@@ -1,0 +1,20 @@
+[project]
+name = "bacoun"
+version = "1.0.0"
+description = "Toy reproduction of BaCOUn: Bayesian Classifiers with Out-of-Distribution Uncertainty (arXiv:2007.06096)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.9.0",
+    "numpy>=2.3.4",
+    "pyro-ppl>=1.9.1",
+    "scikit-learn>=1.5.0",
+    "matplotlib",
+    "pillow",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.black]
+line-length = 100
